@@ -20,4 +20,9 @@ public class HelloController {
         public ResponseEntity<String> saludar( ) {
             return ResponseEntity.ok("hola :D");
         }
+
+        @GetMapping(path = "/hector")
+        public ResponseEntity<String> saludarHector( ) {
+            return ResponseEntity.ok("hola de parte de hector");
+        }
 }
