@@ -25,4 +25,10 @@ public class HelloController {
         public ResponseEntity<String> saludarHector( ) {
             return ResponseEntity.ok("hola de parte de hector");
         }
+        @GetMapping(path = "/Proto")
+        public ResponseEntity<String> saludarProto( ) {
+            return ResponseEntity.ok("Como estan muchachos");
+        }
 }
+
+
