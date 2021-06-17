@@ -25,4 +25,9 @@ public class HelloController {
         public ResponseEntity<String> saludarHector( ) {
             return ResponseEntity.ok("hola de parte de hector");
         }
+
+        @GetMapping(path = "/pilar")
+        public ResponseEntity<String> saludarPilar( ) {
+            return ResponseEntity.ok("hola de parte de pilar");
+        }
 }
